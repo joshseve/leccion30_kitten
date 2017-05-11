@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background: url(../img/Landscape.jpg);
+    background-size: cover;
   }
   div.kitten {
      content:url(../img/kitten-medium.png);
@@ -21,6 +22,7 @@
     align-items: center;
     background: url(../img/dawn.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   div.kitten {
      content:url(../img/kitten-medium.png);
@@ -36,8 +38,25 @@
     align-items: center;
     background: url(../img/dawn.png);
     background-repeat: no-repeat;
+    background-size: cover;
   }
   div.kitten {
      content:url(../img/kitten-large.png);
+  }​
+}
+
+@media(max-width:600px){
+  .container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  div.kitten {
+     content:url(../img/kitten-small.png);
   }​
 }
