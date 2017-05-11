@@ -1,0 +1,10 @@
+@media(max-width:1500px){
+  .container{
+    width: 100%;
+    height: 1000px;
+    background: url(../img/Landscape.jpg);
+  }
+  div.kitten {
+     content:url(../img/kitten-medium.png);
+  }​
+}
