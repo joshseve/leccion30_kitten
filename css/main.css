@@ -2,7 +2,25 @@
   .container{
     width: 100%;
     height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url(../img/Landscape.jpg);
+  }
+  div.kitten {
+     content:url(../img/kitten-medium.png);
+  }​
+}
+
+@media(max-width:1000px){
+  .container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/dawn.png);
+    background-repeat: no-repeat;
   }
   div.kitten {
      content:url(../img/kitten-medium.png);
